@@ -1,7 +1,3 @@
-// Made by Lummit - https://obnoxious.club/ | https://github.com/Lumm1t/ | Discord: Lummit#0201
-// Credits to expl0it, shellcode.team
-// GitHub: https://github.com/Lumm1t/obnoxious.club
-
 class _app {
   id = 0;
   videoElement = null;
