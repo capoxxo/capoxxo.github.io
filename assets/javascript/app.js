@@ -2,8 +2,8 @@ class _app {
   id = 0;
   videoElement = null;
   audioElement = null;
-  musicVolume = 0.12;
-  musicFadeIn = 4000;
+  musicVolume = 0.77;
+  musicFadeIn = 0;
   skippedIntro = false;
   backgroundToggler = false;
   shouldIgnoreVideo = false;
@@ -19,13 +19,14 @@ class _app {
     "jello"
   ];
   brandDescription = [
-    "jitterclicker",
-    "arch linux",
+    "autoclicker",
+    "paster",
     "ping 127.0.0.1",
     "sudo rm -rf / --no-preserve-root",
-    "220ms",
+    "swag",
     "cheater",
-    ":) throw a party on my funeral <3"
+    "rip melon.rest",
+    "transfem"
   ];
 
   titleChanger = (text, delay) => {

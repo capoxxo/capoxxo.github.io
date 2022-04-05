@@ -49,7 +49,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['lilac', 'lilac.', 'lilac.m', 'lilac.mo', 'lilac.mod', 'lilac.mod.l', 'lilac.mod.la', 'lilac.mod.lan', 'lilac.mod.land', 'lilac.mod.lan', 'lilac.mod.la', 'lilac.mod.l', 'lilac.mod.', 'lilac.mod', 'lilac.mo', 'lilac.m', 'lilac.']);
+  app.titleChanger(['lilac', 'lila', 'lil', 'li', 'l', 'li', 'lil', 'lila']);
   app.iconChanger(['assets/icons/roses/rose1.jpg', 'assets/icons/roses/rose2.jpg', 'assets/icons/roses/rose3.jpg', 'assets/icons/roses/rose4.jpg', 'assets/icons/roses/rose5.jpg', 'assets/icons/roses/rose6.jpg', 'assets/icons/roses/rose7.jpg', 'assets/icons/roses/rose8.jpg', 'assets/icons/roses/rose1.jpg']);
 });
 
@@ -84,7 +84,7 @@ $('html').on('contextmenu', (event) => {
   img.src = 'assets/others/trollface.jpg';
   img.width = 64;
   img.height = 64;
-  img.alt = 'lilac.mod.land';
+  img.alt = 'aaaaah >w<';
   img.style = `position: absolute; left: ${event.pageX}px; top: ${event.pageY}px; z-index: 10`;
   img.className = `troll ${trollfaceLight}`;
 
@@ -141,7 +141,7 @@ $.getJSON(ipgeolocation, (data) => {
 
       clearCursor();
 
-      writeLine([`<i style='color: #F62459'>lilac.mod.land</i>`], 120, 500, () => {
+      writeLine([`<i style='color: #F62459'>lilac ^$^</i>`], 120, 500, () => {
         timeouts.push(
           setTimeout(() => {
             if (app.skippedIntro) return;
@@ -187,7 +187,7 @@ const skipIntro = () => {
     setTimeout(() => {
       const typed = new Typed('#brand', {
         strings: app.brandDescription,
-        typeSpeed: 40,
+        typeSpeed: 20,
 
         onComplete: () => {
           clearCursor();
