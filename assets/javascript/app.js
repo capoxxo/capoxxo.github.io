@@ -22,11 +22,11 @@ class _app {
     "autoclicker",
     "paster",
     "ping 127.0.0.1",
-    "sudo rm -rf / --no-preserve-root",
-    "swag",
-    "cheater",
-    "rip melon.rest",
-    "transfem"
+    "wwwww",
+    "skeet.cc",
+    "hvh lua",
+    "femboy",
+    "stars#9532"
   ];
 
   titleChanger = (text, delay) => {
