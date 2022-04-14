@@ -2,7 +2,7 @@ class _app {
   id = 0;
   videoElement = null;
   audioElement = null;
-  musicVolume = 0.77;
+  musicVolume = 1;
   musicFadeIn = 0;
   skippedIntro = false;
   backgroundToggler = false;
@@ -24,8 +24,8 @@ class _app {
     "ping 127.0.0.1",
     "wwwww",
     "skeet.cc",
-    "hvh lua",
-    "femboy",
+    "beaming",
+    "capoxxo",
     "stars#9532"
   ];
 

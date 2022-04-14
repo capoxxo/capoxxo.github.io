@@ -40,7 +40,7 @@ $(document).ready(() => {
 
     link = $('#marquee').children('a').last();
 
-    if (i != links.length - 1) $('#marquee').append(' <img class="emoticon" src="assets/others/mgh_17.png"> ');
+    if (i != links.length - 1) $('#marquee').append(' <img class="emoticon" width=18 height=18 src="assets/others/fc.png"> ');
   }
 
   if (mobileAndTabletCheck()) {
@@ -49,8 +49,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['lilac', 'lila', 'lil', 'li', 'l', 'li', 'lil', 'lila']);
-  app.iconChanger(['assets/icons/roses/rose1.jpg', 'assets/icons/roses/rose2.jpg', 'assets/icons/roses/rose3.jpg', 'assets/icons/roses/rose4.jpg', 'assets/icons/roses/rose5.jpg', 'assets/icons/roses/rose6.jpg', 'assets/icons/roses/rose7.jpg', 'assets/icons/roses/rose8.jpg', 'assets/icons/roses/rose1.jpg']);
+  app.titleChanger(['stars', 'star', 'sta', 'st', 's', 'st', 'star']);
 });
 
 if ($.cookie('videoTime')) {
@@ -84,7 +83,7 @@ $('html').on('contextmenu', (event) => {
   img.src = 'assets/others/trollface.jpg';
   img.width = 64;
   img.height = 64;
-  img.alt = 'aaaaah >w<';
+  img.alt = 'dont paste xd';
   img.style = `position: absolute; left: ${event.pageX}px; top: ${event.pageY}px; z-index: 10`;
   img.className = `troll ${trollfaceLight}`;
 
@@ -126,7 +125,7 @@ const writeLine = (text, speed, timeout, callback) => {
 };
 
 $.getJSON(ipgeolocation, (data) => {
-  writeLine(['Authenticating...', "Granting access to <span style='font-size: 14px; color: #06d;'>[REDACTED]</span>..."], 30, () => {
+  writeLine(['Authenticating...', "brb hold on script runnin"], 30, () => {
     if (app.skippedIntro) return;
 
     clearCursor();
@@ -187,7 +186,7 @@ const skipIntro = () => {
     setTimeout(() => {
       const typed = new Typed('#brand', {
         strings: app.brandDescription,
-        typeSpeed: 20,
+        typeSpeed: 10,
 
         onComplete: () => {
           clearCursor();
