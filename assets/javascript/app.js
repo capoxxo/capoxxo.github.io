@@ -4,7 +4,7 @@ class _app {
   audioElement = null;
   musicVolume = 1;
   musicFadeIn = 0;
-  skippedIntro = false;
+  skippedIntro = true;
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = [
@@ -22,11 +22,11 @@ class _app {
     "autoclicker",
     "paster",
     "ping 127.0.0.1",
-    "wwwww",
-    "skeet.cc",
+    "4.86 reach",
+    "skeet girl",
     "beaming",
     "capoxxo",
-    "stars#9532"
+    "off-white"
   ];
 
   titleChanger = (text, delay) => {
