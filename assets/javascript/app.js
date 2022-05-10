@@ -20,13 +20,13 @@ class _app {
   ];
   brandDescription = [
     "autoclicker",
-    "paster",
-    "ping 127.0.0.1",
-    "4.86 reach",
-    "skeet girl",
-    "beaming",
-    "capoxxo",
-    "off-white"
+    "pasted",
+    "estrogen",
+    "tenacity",
+    "trans",
+    "beamed",
+    "rudeclub",
+    "balenciaga"
   ];
 
   titleChanger = (text, delay) => {
